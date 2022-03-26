@@ -1,0 +1,10 @@
+<script>
+
+const salarioDoMes = parseFloat(prompt("Digite o salário mensal do funcionário em reais:")); 
+const PercentualDeReajuste = parseFloat(prompt("Digite o percentual de reajuste:"));
+const valorDoReajuste = salarioDoMes * PercentualDeReajuste /100; 
+const novoSalarioMensal = salarioDoMes + valorDoReajuste;
+
+document.write(`O novo salário é: R${novoSalarioMensal}`);
+
+</script>
