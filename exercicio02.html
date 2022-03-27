@@ -1,0 +1,10 @@
+<script>
+
+const custoDeFabrica = parseFloat (prompt("O custo de fabrica é: "));
+const percentualDoDistribiudor = (custoDeFabrica * 0,28) + custoDeFabrica;
+const imposto = (custoDeFabrica * 0,45) + custoDeFabrica;
+const custoConsumidor = percentualDoDistribiudor + imposto + custoDeFabrica;
+
+document.write(`O valor do automóvel é: R${custoConsumidor}`);
+
+</script>
