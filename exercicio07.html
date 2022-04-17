@@ -1,0 +1,19 @@
+<script>
+
+const  valorDuzia  =  1.30 ;
+const  valorUnitario  =  1.00 ;
+
+let  quantidadeMacaesCompradas  =  parseFloat(prompt("Digite quantas maçãs deseja comprar e veja o valor total: ")) ;
+
+const  total1  =  quantidadeMacaesCompradas * valorUnitario 
+const total2 = quantidadeMacaesCompradas * valorDuzia
+
+if  (total1 >  12)  {
+    document.write (` O valor das compras é:${total1}`) ;
+  }  else {
+    document.write (` O valor das compras é: ${total2}`);
+  }
+
+
+
+</script>
