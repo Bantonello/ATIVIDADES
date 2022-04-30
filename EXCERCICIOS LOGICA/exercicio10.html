@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        let objetoVazio = {};
+        let carro = {
+            ano : 2010,
+            venda : true,
+            modelo : "Carro X",
+            revendedores: ["empresa 1", "empresa 2", "empresa 3"],
+            opcionais: {
+                arCondicionado : true,
+                computadorDeBordo : false,
+                anosGarantiaExtra: 5,
+            }
+        }
+        //console.log(objetoVazio);
+        console.log(carro.ano);
+        console.log(carro["venda"]);
+        console.log(carro.modelo);
+        console.log(carro["revendedores"][0]);
+        console.log(carro.opcionais.anosGarantiaExtra);
+    </script>
+</body>
+</html>
