@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(0, 124, 128);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377);
+}
+
+div p#name {
+  text-align: center;
+}
+
+div#input button {
+  width: center;
+  height: center;
+}
+
+div#img img {
+  width: 200px;
+  height: 200px;
+  
+}
+
+div#id {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
