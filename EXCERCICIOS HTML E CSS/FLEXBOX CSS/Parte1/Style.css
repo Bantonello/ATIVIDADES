@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+  }
+  
+  .container {
+      /* o display: flex vai na tag pai
+      para identificar que a tag vai ser ocontainer de flexbox*/
+    display: flex;
+
+    /* vai definir qual é o eixo principal, "row" = linha hotizontal(123)
+    "row-reverse" = reverso da linha(321), "column"= eixo em forma de coluna.*/
+    flex-direction: row;
+
+ /* "center"= vai centralizar os elementos, "flex-start"=  canto superior esquerda, 
+ "flex-and"= canto superior direto, "Space-between" = vai distribuir os elementos ao longo do eixo principal,
+ "space-around"- vai colocar um espaço não só entre os elementos, mas tambem por fora deles.*/
+    justify-content: center;
+
+    /* alinhar os elementos no centro */
+    align-items: center;
+
+    /* Quando o elemento chegar no final da linha ele vai quebrar pra baixo.*/
+    flex-wrap: wrap;
+
+    /* alinhar elementos em mais de uma linha */
+    align-content: center;
+    
+    /* gap = vai por espaçamento de pixel entre cada um dos elementos,
+    row-gap = distancia entre as linhas,
+    column-gap = distancia entre as colunas */
+    row-gap: 10px;
+    column-gap: 30px;
+  
+    /* indiferente: */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+  }
+  
+  .bloco-1 {
+    /* indiferente: */
+    background-color: #c6d8f0;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+  }
+  
+  .bloco-2 {
+    /* indiferente: */
+    background-color: #d8bfd8;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+  }
+  
+  .bloco-3 {
+    /* indiferente: */
+    background-color: #ff9999;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+  }
+
+
+
+
