@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+    
+}
+
+.child1{
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+.child2{
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+.child3{
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
