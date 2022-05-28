@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Web</title>
+  </head>
+  <body>
+    <div class="content">
+      <form action="">
+        <div>
+         <strong><h2>Formulário de Cadastro</h2></strong>
+        </div>
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="form">
+            <label for="nome">nome</label><br />
+            <input
+              type="text"
+              id="nome"
+              class="form-container"
+              placeholder="Insira seu nome"
+              required
+            /><br />
+          </div>
+          <div class="form">
+            <label for="sobrenome">sobrenome</label><br />
+            <input
+              type="text"
+              id="sobrenome"
+              class="form-container"
+              placeholder="Insira seu sobrenome"
+              required
+            />
+          </div>
+          <div class="form">
+            <label for="date">Data de Nascimento:</label><br />
+            <input
+              type="date"
+              name="date"
+              id="date"
+              class="form-container"
+              placeholder="Data de Nascimento"
+              required
+            />
+          </div>
+
+          <div class="form">
+            <label for="email">E-mail:</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-container"
+              placeholder="Ex. nome@provedor.com.br"
+              required
+            />
+          </div>
+
+          <div class="form">
+            <label for="telefone">Telefone:</label><br />
+            <input
+              type="number"
+              name="telefone"
+              id="telefone"
+              class="form-container"
+              placeholder="Número de contato"
+              required
+            />
+          </div>
+
+          <div class="form">
+            <label for="CPF">CPF:</label><br />
+            <input
+              type="number"
+              name="CPF"
+              id="CPF"
+              class="form-container"
+              placeholder="Insira um CPF válido:"
+              required
+            />
+          </div>
+          <fieldset class="borda2">
+            <legend>Tecnologias de preferência</legend>
+            <div class="form">
+              <input
+                type="radio"
+                name="Tecnologia"
+                id="HTML"
+                value="HTML"
+                checked
+              />
+              <label for="HTML">HTML</label>
+              <input type="radio" name="Tecnologia" id="CSS" value="CSS" />
+              <label for="CSS">CSS</label>
+              <input
+                type="radio"
+                name="Tecnologia"
+                id="JavaScript"
+                value="JavaScript"
+              />
+              <label for="JavaScript">JavaScript</label>
+            </div>
+          </fieldset>
+
+          <div class="form">
+            <label for="list">Área de atuação:</label><br />
+            <input type="text" name="list" list="list" class="list" />
+            <datalist class="list" id="list">
+              <option value="Front-End">Front-End</option>
+              <option value="Back-End">Back-End</option>
+              <option value="FullStack">FullStack</option>
+            </datalist>
+          </div>
+
+          <div class="form">
+            <label for="senha">Senha:</label><br />
+            <input
+              type="password"
+              name="Senha"
+              id="Senha"
+              class="form-container"
+              placeholder="Insira uma senha válida"
+              required
+            />
+          </div>
+          <div class="form-botao1">
+            <!-- todo formulario usa um input type submit como botão -->
+            <input type="submit" class="form-botao1" value="Enviar" />
+          </div>
+
+          <div class="form-botao2">
+            <!-- todo formulario usa um input type submit como botão -->
+            <a href="pagina1.html"><input type="button" class="form-botao2" value="Cancelar" /></a>
+          </div>
+
+          <div class="form-botao3">
+            <!-- todo formulario usa um input type submit como botão -->
+            <input type="reset" class="form-botao3" value="limpar" />
+          </div>
+        </fieldset>
+        
+      </form>
+    </div>
+  </body>
+</html>

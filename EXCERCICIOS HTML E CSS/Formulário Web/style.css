@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  color: black;
+}
+
+.content {
+  background: linear-gradient(
+    68.15deg,
+    rgb(156, 62, 156) 20.62%,
+    rgb(30, 138, 210) 85.61%);
+  width: 25%;
+  padding: 20px;
+  margin: 20px auto 20px auto;
+  box-shadow: 0px 6px 10px;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 5px;
+}
+
+.form-botao1 {
+  text-align: center;
+  padding: 5px;
+  margin: 5px auto 5px auto;
+  width: 100%;
+  background-color: blue;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.form-botao1:hover {
+  background-color: rgb(8, 21, 95);
+}
+
+.form-botao2 {
+  text-align: center;
+  padding: 5px;
+  margin: 5px auto 5px auto;
+  width: 100%;
+  background-color: red;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.form-botao2:hover {
+  background-color: rgb(94, 8, 33);
+}
+
+.form-botao3 {
+  text-align: center;
+  padding: 5px;
+  margin: 5px auto 5px auto;
+  width: 100%;
+  background-color: coral;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.form-botao3:hover {
+  background-color: orangered;
+}
+
+.borda2 {
+  width: 100%;
+  text-align: center;
+}
+
+fieldset {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px black;
+}
+.form-container {
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  text-align: center;
+}
