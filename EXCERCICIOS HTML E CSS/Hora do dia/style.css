@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(0, 124, 128);
+  background-color: purple;
   font: normal 15pt Arial;
 }
 
@@ -10,25 +10,22 @@ header {
 
 section {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 15px;
   width: 500px;
-  height: 500px;
   margin: auto;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
 }
 
-div p#name {
+div {
+  padding: 12px;
   text-align: center;
-
 }
 
-div#img {
-  width:250px;
+img#img {
+  width: 250px;
   height: 250px;
-  border-radius:100%;
-  margin-left: 20%;
-  
+  border-radius: 50%;
 }
 
 footer {
