@@ -1,0 +1,30 @@
+.example {
+  color: white;  
+  text-align: justify;
+}
+
+.example::after{
+  content: "hasuhasuashaushauhsu";
+  display: inline;
+  width: 100%;
+}
+.example-item {
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+}
+
+.example-item_first {
+  background-color: orangered;
+  
+}
+
+.example-item_second {
+  background-color: blue;
+  
+}
+
+.example-item_third {
+  background-color: violet;
+}
+

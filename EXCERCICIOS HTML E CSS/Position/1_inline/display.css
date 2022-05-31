@@ -1,0 +1,29 @@
+.example{
+    color: white;
+    text-align: center; /* o impacto tem que ser no "example" por que 
+    ele é o pai dos demais elementos, portanto quem vai ser impactado 
+    com o text-align, vai ser "seus filhos" o texto, 
+    cada <li> agora é uma palavra e tudo é um texto.*/
+    
+}
+
+.example-item{
+   display: inline;
+}
+
+.example-item_first{
+    background-color: orangered;
+
+}
+
+.example-item_second{
+    background-color: blue;
+}
+
+.example-item_third{
+    background-color: violet;
+}
+
+h3 {
+    text-align: right;
+}

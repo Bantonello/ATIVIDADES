@@ -1,0 +1,33 @@
+.example {
+  color: white;
+  text-align: center;
+}
+
+.example-item {
+  display: block;
+  width: 33.333%;
+  height: 150px;
+}
+
+.example-item_first {
+  background-color: orangered;
+}
+
+.example-item_second {
+  background-color: blue;
+  margin-left: auto;
+}
+
+.example-item_third {
+  background-color: violet;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Display block vai ter os seguintes comportamentos: 
+1- o elemento vai ocupar  linha toda, 
+não é possivel ser um elemento display: block e ter outro elemento na mesma linha
+2- conseguimos definir altura e largura, diferente do display: inline.
+3- com o display: block conseguimos jogar um unico elemento para direita, para esqueda ou centralizado./*
+
