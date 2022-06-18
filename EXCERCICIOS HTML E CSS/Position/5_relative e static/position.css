@@ -1,0 +1,30 @@
+.elementExample {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;   
+}
+
+.elementExample_first {
+  background-color: blueviolet;
+  position: relative;
+  top: 200px;
+  /*position: relative; -> você pode usar 4 propriedades com ele que são:
+  top: ;right: ;left: ; bottom: ; - o que vai acontecer é você pegar a referencia dele 
+  que foi passada pelo browser e a quela referencia mover para o lado que você
+  está mandando de forma positiva jogando ao contrário.*/    
+}
+
+.elementExample_last {
+  background-color: brown;
+  position: relative; 
+}
+
+.elementExample_isActive{
+    z-index: 1;
+/* z-index: 1; -> vai manipular para que o segundo elemento se sobreponha ao primeiro,
+ determinando quem vai pra frente e quem vai pra trás.*/
+}

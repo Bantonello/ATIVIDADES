@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.bola {
+  background-image: url(https://cdn.awsli.com.br/300x300/97/97061/produto/50807680/6580ed7c4c.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+   /* no posicionamento "center center" 
+  eixo X vai vir primeiro e depois o eixo Y*/
+  background-color: rgba(242, 90, 111, 0.5);
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 50%;
+  border: 10px solid green;
+  cursor: pointer;
+}
+
+.bola:hover {
+  background-color: red;
+  border-color: rgba(0, 0, 0, 0.2);
+}

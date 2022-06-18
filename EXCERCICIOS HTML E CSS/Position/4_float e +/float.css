@@ -1,0 +1,34 @@
+
+article{
+  background-color: grey;
+  /*overflow: hidden; -> a ideia é esconder qualquer elemento que vaze a 
+  altura ou largura definida por esse "pai"*/
+}
+
+.elementExample{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.elementExample_first{
+  background-color: blueviolet;
+  /*float: left; -> essa função vai "chutar" o elemento para a frente e a esquerda,
+  e fazendo ele flutuar e ficar a frente segundo elemento.*/
+}
+
+.elementExample_last{
+  background-color: brown;
+  /*float: left; -> quando os dois elementos possuem o float, os dois flutuam a esquerda,
+  porém o segundo sempre vai respeitar o espaço do segundo elemento.*/
+}
+
+p{
+  background-color: aqua;
+  /*clear: both; -> essa propriedade vai verificar se tem algum elemento flutuando
+  a esquerda e a direita, e se tiver ela vai limpar o contexto, 
+  ficando embaixo dos elementos que estão flutuando.*/
+}

@@ -1,0 +1,21 @@
+:root {
+  --collor-first: blueviolet;
+  --collor-gray-medium: aliceblue;
+}
+
+.btn {
+  --collor-first: orange;
+  --collor-gray-medium: aliceblue;
+
+  width: 200px;
+  height: 50px;
+  background-color: var(--collor-first);
+  color: var(--collor-gray-medium);
+  font-size: 2rem;
+  border: none;
+}
+
+.action {
+  color: var(--collor-first);
+  font-size: 2rem;
+}

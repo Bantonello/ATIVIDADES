@@ -1,0 +1,47 @@
+.elementExample {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.elementExample_first {
+  background-color: blueviolet;
+  /* o position:absolute, da o controle de posicionar 
+  o elemento para qualquer lugar da tela.*/
+  position: absolute;
+  right: 0;
+}
+
+.elementExample_second {
+  background-color: brown;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*a propriedade transform: translateX(), funciona um pouco diferente da 
+  position: absolute, ele vai sempre peagr a largura do elemento 
+  e não da tela. enquanto a propriedade translateY(), 
+  vai pegar o % da altura do elemento.*/
+  transform: translateX(-100px);
+}
+
+.elementExample_last {
+  position: absolute;
+  background-color: rgb(17, 14, 196);
+}
+
+.elementExample-internal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgb(18, 75, 75);
+}
